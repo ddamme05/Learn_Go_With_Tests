@@ -1,0 +1,19 @@
+# Binaries for programs and plugins
+# This will ignore the executable file that 'go build' creates
+/Learn_Go_With_Tests
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Output of the go coverage tool
+*.out
+
+# IDE and system files
+.vscode/
+.idea/
+.DS_Store
